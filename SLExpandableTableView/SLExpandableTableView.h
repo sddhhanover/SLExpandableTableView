@@ -55,7 +55,7 @@ typedef enum {
 
 
 
-@interface SLExpandableTableView : UITableView <UITableViewDelegate, UITableViewDataSource> {
+@interface SLExpandableTableView : TPKeyboardAvoidingTableView <UITableViewDelegate, UITableViewDataSource> {
 @private
     id<UITableViewDelegate, SLExpandableTableViewDelegate> __weak _myDelegate;
     id<UITableViewDataSource, SLExpandableTableViewDatasource> __weak _myDataSource;
