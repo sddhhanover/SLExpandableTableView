@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TPKeyboardAvoidingTableView.h"
 
 @class SLExpandableTableView;
 
